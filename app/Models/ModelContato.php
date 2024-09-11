@@ -7,5 +7,5 @@ use Illuminate\Database\Eloquent\Model;
 
 class modelContato extends Model
 {
-    use HasFactory;
+    protected $fillable = ['nome', 'email', 'mensagem'];
 }

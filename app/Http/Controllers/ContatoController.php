@@ -2,7 +2,7 @@
 
 namespace App\Http\Controllers;
 
-use App\Models\modelContato;
+use App\Models\ModelContato;
 use Illuminate\Http\Request;
 
 class ContatoController extends Controller
